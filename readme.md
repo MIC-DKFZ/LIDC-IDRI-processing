@@ -1,9 +1,16 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2249217.svg)](https://doi.org/10.5281/zenodo.2249217)
+
  LIDC Data processing scripts
  ============================
  
 The scripts within this repository can be used to convert the LIDC-IDRI data. After calling this script,
 the image and segmentation data is available in nifti/nrrd format and the nodule characteristics are available 
 in a single comma separated (csv) file.
+
+If you are using these scripts for your publication, please cite as
+
+Michael Goetz, "MIC-DKFZ/LIDC-IDRI-processing: Release 1.0.1", DOI: 10.5281/zenodo.2249217
+
 
 ## Requirements
 The scripts uses some standard python libraries (glob, os, subprocess, numpy, and xml), the python library SimpleITK. 
@@ -115,5 +122,3 @@ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
 OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
-
-
