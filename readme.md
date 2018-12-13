@@ -8,12 +8,12 @@ in a single comma separated (csv) file.
 ## Requirements
 The scripts uses some standard python libraries (glob, os, subprocess, numpy, and xml), the python library SimpleITK. 
 Additionally, some command line tools from MITK are used. They can be either obtained by building MITK and enabling 
-the classification module or by installing [MITK Phenotyping][http://http://mitk.org/Phenotyping] which contains all 
+the classification module or by installing  [MITK Phenotyping](http://http://mitk.org/Phenotyping) which contains all 
 necessary command line tools. 
 
 ## Basic Usage
- * Download the data from the [LIDC-IDRI][https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI] website. Required are the Image DICOM files and the the describing XML files (Radiologist Annotations/Segmentations (XML format)). 
- * If not already happend, build or download and install [MITK Phenotyping][http://http://mitk.org/Phenotyping]
+ * Download the data from the [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI) website. Required are the Image DICOM files and the the describing XML files (Radiologist Annotations/Segmentations (XML format)). 
+ * If not already happend, build or download and install [MITK Phenotyping](http://http://mitk.org/Phenotyping)
  * Adapt the paths in the file "lidc_data_to_nifti.py"
  * Run the script "lidc_data_to_nifti.py"
  
@@ -75,7 +75,7 @@ So this script relys on the XML-description, which might not be the best solutio
 / write a new solution which makes use of the now available DICOM Seg objects.
 
 ## Further questions
-If you have suggestions or questions, you can reach me (Michael Goetz) at m.goetz@dkfz-heidelberg.de
+If you have suggestions or questions, you can reach the author (Michael Goetz) at m.goetz@dkfz-heidelberg.de
 
 ## Licence
 
