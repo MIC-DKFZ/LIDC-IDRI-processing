@@ -362,6 +362,10 @@ def parse_xml_file(file):
 
 nodule_id = 0
 for xml_file in glob.glob(os.path.join(path_to_xmls,"*","*.xml")):
+    global path_to_characteristics
+    os.makedirs(os.path.dirname(path_to_characteristics), exist_ok=True)
+    with open(path_to_characteristics,"a") as file:
+        file.write(";".join(["Patient_ID","Session_ID","Radiologist","Nodule_Str","subtlety","internalStructure","calcification","sphericity","margin","lobulation","spiculation","texture","malignancy"])+"\n") 
     print(xml_file)
     try:
         parse_xml_file(xml_file)
