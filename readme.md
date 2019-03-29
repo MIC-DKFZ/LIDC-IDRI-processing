@@ -19,7 +19,7 @@ the classification module or by installing  [MITK Phenotyping](http://mitk.org/P
 necessary command line tools. 
 
 ## Basic Usage
- * Download the data from the [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI) website. Required are the Image DICOM files and the the describing XML files (Radiologist Annotations/Segmentations (XML format)). 
+ * Download the data from the [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI) website. Required are the Image DICOM files and the the describing XML files (Radiologist Annotations/Segmentations (XML format)). When you download the data using the NBIA Data Retrriever, select the "Classic Directory Name" option instead of the default option "Descriptive Directory Name".
  * If not already happend, build or download and install [MITK Phenotyping](http://mitk.org/Phenotyping)
  * Adapt the paths in the file "lidc_data_to_nifti.py"
  * Run the script "lidc_data_to_nifti.py"
