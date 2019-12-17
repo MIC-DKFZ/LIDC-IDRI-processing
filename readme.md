@@ -2,6 +2,8 @@
 
  LIDC Data processing scripts
  ============================
+ Copyright © German Cancer Research Center (DKFZ), Division of Medical Image Computing (MIC). 
+ 
  
 The scripts within this repository can be used to convert the LIDC-IDRI data. After calling this script,
 the image and segmentation data is available in nifti/nrrd format and the nodule characteristics are available 
